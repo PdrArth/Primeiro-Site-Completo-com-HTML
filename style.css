@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex: 1;
+
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    background-image: url("https://blog.iclinic.com.br/wp-content/uploads/2016/08/como-abrir-uma-clinica-de-saude-do-zero-erros-que-voce-nao-pode-cometer.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: white;
+    min-height: 150px;
+}
+.color{
+    background-color: darkgreen;
+    color: white;
+}
